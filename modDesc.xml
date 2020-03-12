@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="47">
+    <author>LsModcompany / kevink98</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>GlobalCompany - GlobalMarket 2020</en>
+        <de>GlobalCompany - Globaler Markt 2020</de>
+    </title>
+    <description>
+        <en><![CDATA[GlobalMarket
+
+Sell or buy goods in the complete LS world!
+
+
+Information: Mod only playable in combination with GlobalCompany!]]></en>
+        <de><![CDATA[GlobalMarket
+
+Verkaufe oder Kaufe Waren in der kompletten LS-Welt!
+
+
+Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>
+    </description>
+    <iconFilename>icon_globalMarket.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <storeItems>
+        <storeItem xmlFilename="globalMarket.xml" />
+    </storeItems>
+	
+	<extraSourceFiles>
+		<sourceFile filename="GC_Checker.lua" />
+    </extraSourceFiles>
+    
+    <brands>
+        <brand name="GCPLACEABLE" title="GlobalCompany Placeable" image="../FS19_GlobalCompany/brand_placeable.dds"/>
+    </brands>
+	
+	<extraSourceFiles>
+		<sourceFile filename="GC_Checker.lua" />
+    </extraSourceFiles>
+	
+	<globalCompany minimumVersion="1.3.0.0" />
+</modDesc>
